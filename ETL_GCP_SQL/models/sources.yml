@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: landing
+    database: WeatherDB
+    schema: landing
+    tables:
+      - name: userdata  # This must match your pgAdmin table name exactly

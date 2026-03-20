@@ -1,0 +1,13 @@
+# dbt specific
+target/
+dbt_packages/
+logs/
+
+# Python specific
+__pycache__/
+*.pyc
+dbt_stable_env/
+.env
+
+# Security (IMPORTANT)
+profiles.yml
