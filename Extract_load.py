@@ -18,11 +18,11 @@ def serialize_complex_data(obj):
     return obj
 
 # 2. Connection setup (using your WeatherDB)
-user = 'postgres'
-password = 'Priyanka123'
+user = 'user'
+password = 'passord'
 local_host = 'localhost'
 port = '5432'
-db_name = 'WeatherDB'
+db_name = 'DBNAME'
 
 db_url = f'postgresql://{user}:{password}@{local_host}:{port}/{db_name}'
 engine = create_engine(db_url)
