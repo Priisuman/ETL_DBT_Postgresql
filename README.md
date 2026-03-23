@@ -1,9 +1,7 @@
-# ETL_GCP_Postgresql
-ETL from GCP to postgresql, dbt for transformation
 
 # ETL: dbt & PostgreSQL Pipeline
 
-This project demonstrates a local Medallion Architecture ETL pipeline. It ingests raw user/weather data, processes it through a transformation layer using dbt, and outputs a clean 'Gold' schema in PostgreSQL.
+This project demonstrates a local Medallion Architecture ETL pipeline. It ingests raw  data, processes it through a transformation layer using dbt, and outputs a clean 'Gold' schema in PostgreSQL.
 
 ## 🛠 Tech Stack
 - **Database:** PostgreSQL 
