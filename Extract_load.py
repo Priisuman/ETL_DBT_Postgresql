@@ -19,7 +19,7 @@ def serialize_complex_data(obj):
 
 # 2. Connection setup (using your WeatherDB)
 user = 'user'
-password = 'passord'
+password = 'password'
 local_host = 'localhost'
 port = '5432'
 db_name = 'DBNAME'
